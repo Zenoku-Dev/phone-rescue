@@ -8,7 +8,7 @@ import (
 	"bytes"
 	"crypto/ed25519"
 	"crypto/rand"
-	"crypto/ssh"
+	"golang.org/x/crypto/ssh"
 	"crypto/x509"
 	"encoding/pem"
 	"errors"
